@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no"
+    />
+
+    <title>about</title>
+
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/33134197?s=96&v=4" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600&display=swap" />
+    </noscript>
+
+    <style>
+      @media screen and (max-width: 600px) {
+        :root {
+          --size-title: 10vmin;
+          --size-text: 7.5vmin;
+          --size-subtext: 4.5vmin;
+        }
+      }
+      @media screen and (min-width: 600px) {
+        :root {
+          --size-title: 6vmin;
+          --size-text: 4vmin;
+          --size-subtext: 2vmin;
+        }
+      }
+      :root {
+        --font-title: DM Sans;
+        --font-text: Inter;
+        --font-subtext: DM Mono;
+
+        --color-primary-text: #f0f0f0;
+        --color-secondary-text: #c4c4c4;
+        --color-tertiary-text: #696969;
+
+        --color-primary-bg: #212121;
+        --color-secondary-bg: #424242;
+        --color-tertiary-bg: #ffcf96;
+
+        --color-shadow-low: rgba(49, 49, 49, 0.5);
+
+        --weight-heavy: bold;
+        --weight-regular: normal;
+      }
+      ::-moz-selection {
+        color: var(--color-primary-bg);
+        background: var(--color-tertiary-bg);
+      }
+      ::selection {
+        color: var(--color-primary-bg);
+        background: var(--color-tertiary-bg);
+      }
+      html {
+        background: #000;
+      }
+      #airframe {
+        position: absolute;
+        padding-bottom: 5vmin;
+        left: 5vmin;
+        top: 5vmin;
+        width: calc(100% - 10vmin);
+        height: fit-content;
+      }
+      div {
+        width: fit-content;
+      }
+      .subtitle {
+        font-family: var(--font-title);
+        font-size: var(--size-text);
+        font-weight: var(--weight-heavy);
+        color: var(--color-primary-text);
+      }
+      .body {
+        font-family: var(--font-text);
+        font-size: var(--size-subtext);
+        color: var(--color-secondary-text);
+      }
+      .outbound {
+        text-decoration: underline;
+        color: var(--color-primary-text);
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--color-tertiary-bg);
+        cursor: pointer;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id="airframe">
+      <div class="subtitle" id="about"><a href="#about">about</a></div>
+      <br/>
+      <div class="body">
+        xxv is a lightweight, offline web app launcher. it is built with web technologies (html, css, js) in the lightest way possible — the base app, including the cache and the service worker, are barely 10kb!!!
+        <br/>
+        <br/>
+        xxv is built with ♡ and maintained by <a href="https://jordanreger.com" class="outbound">jordan reger</a>. the code is on <a href="https://github.com/jordanreger/xxv" class="outbound">github</a>, and a devlog of the whole project is available on <a href="https://jordanreger.com/xxv" class="outbound">jordanreger/xxv</a>.
+      </div>
+    </div>
+  </body>
+</html>
