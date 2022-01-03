@@ -7,7 +7,12 @@
     />
   </head>
   <body>
-    <script src="https://process.xxv.network/mithril.js"></script>
+    <script>
+      caches.open('mithril').then(cache => {
+        cache.add(`/mithril.js`);
+      })
+    </script>
+    <script src="/mithril.js"></script>
     <script>
       var root = document.body
       var count = 0
