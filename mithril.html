@@ -8,11 +8,11 @@
   </head>
   <body>
     <script>
-      caches.open('mithril').then(cache => {
-        cache.add(`https://process.xxv.network/mithril.js`);
+      window.caches.open('mithril').then(cache => {
+        cache.add(`/mithril.js`);
       })
     </script>
-    <script src="https://process.xxv.network/mithril.js"></script>
+    <script src="/mithril.js"></script>
     <script>
       var root = document.body
       var count = 0
