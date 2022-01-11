@@ -3,5 +3,11 @@
   "version": "0.0.1",
   "description": "uxn",
   "src": "https://wiki.xxiivv.com/site/uxn.html",
-  "cache": []
+  "cache": [
+    "https://wiki.xxiivv.com/links/main.css",
+    "https://wiki.xxiivv.com/media/services/icon.png",
+    "https://wiki.xxiivv.com/media/diary/739.jpg",
+    "https://wiki.xxiivv.com/media/generic/uxn.png",
+    "https://git.sr.ht/~rabbits/uxn/blob/main/src/uxn.c"
+  ]
 }
