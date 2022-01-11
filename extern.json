@@ -4,6 +4,6 @@
   "description": "a test for external files and caching",
   "src": "https://gist.githubusercontent.com/jordanreger/23e2723d589e9e69310a9b827f5b01bb/raw/2c41c5563ed5706adc25a15ff561c371f8efc679/extern.html",
   "cache": [
-    "https://avatars.githubusercontent.com/u/33134197?s=96&v=4"
+    "https://avatars.githubusercontent.com/u/33134197"
   ]
 }
