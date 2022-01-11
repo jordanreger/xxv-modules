@@ -1,0 +1,9 @@
+{
+  "name": "testexternal",
+  "version": "0.0.1",
+  "description": "a short description",
+  "src": "https://gist.githubusercontent.com/jordanreger/ed5e03d5a8097e42ab37c68646d10343/raw/aa74f9d743cd8e4f66fb2eda8ea2af986102bc4d/testexternal.html",
+  "cache": [
+    "https://avatars.githubusercontent.com/u/1"
+  ]
+}
